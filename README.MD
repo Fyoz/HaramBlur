@@ -50,7 +50,7 @@ HaramBlur
 
 استنسخ مستودع HaramBlur إلى جهازك المحلي:
 
-### جوجل كروم :
+###  كروم 
 
 ```bash
 git clone https://github.com/alganzory/HaramBlur.git
