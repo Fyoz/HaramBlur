@@ -38,7 +38,7 @@ HaramBlur
  HaramBlur 
 واختر متصفحك
 الإداة متوفرة على  جوجل كروم / فايرفوكس
-[Haramblur extension on the Chrome Web Store](https://chrome.google.com/webstore/detail/haramblur/pbcoegikffnadpahojjhgdladmmddeji) or the [Firefox Add-ons Store](https://addons.mozilla.org/addon/haramblur/)
+[Haramblur extension on the Chrome Web Store](https://chrome.google.com/webstore/detail/haramblur/pbcoegikffnadpahojjhgdladmmddeji) أو [Firefox Add-ons Store](https://addons.mozilla.org/addon/haramblur/)
 اتبع خطوات التثبيت الموجودة في الصفحة.
 
 ## - الخيار الثاني: 
