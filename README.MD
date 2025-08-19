@@ -1,109 +1,138 @@
-# HaramBlur Extension
+# إضافة HaramBlur
 
-HaramBlur is a browser extension that allows you to navigate the web with respect for your Islamic values, privacy and reduce browsing distractions.
+HaramBlur 
+هي إضافة للمتصفح تتيح لك تصفح الإنترنت بما يتوافق مع قيمًنا الإسلامية، مع الحفاظ على خصوصيتك وعدم رؤية الصور أو الفيديوهات الغير لائقة 
 
-HaramBlur utilizes face detection and NSFW content detection and provides controls that allow you to uphold the Islamic gaze protection principle and tailor your online experience by automatically blurring images and videos that contain unwanted or impermissible content.
 
-You can configure the type of detection you want and the amount of blur, the level of strictness, hover to unblur, choose a specific gender to blur, or turn the extension on and off via the interactive pop-up 😄
+تعتمد HaramBlur
+ على تقنيات كشف الوجوه واكتشاف المحتوى غير اللائق وتوفر أدوات تحكم تساعدك بشكل تلقائي على غضّ البصر وتخصيص تجربتك على الإنترنت عبر تشويش الصور ومقاطع الفيديو التي تحتوي على محتوى غير مرغوب فيه أو غير مسموح به.
 
-![HaramBlur Demo](demos/demo1.png)
+يمكنك من خلال مشروعنا وضعية تشويش التي تحتاجها والمستوى الي يشوش على صورة بشكل كامل، كما يمكنك تمرير المؤشر لإلغاء تشويش، أو اختيار جنس محدد، أو تشغيل/إيقاف الإضافة من خلال النافذة التفاعلية المنبثقة 😄
 
-## Features
+##  المميزات
 
--   Works on images and videos that contain unwanted or impermissible content
--   Works on most (if not all) websites and social media platforms
--   Configurable detection settings to tailor your browsing experience
--   Interactive pop-up for easy on/off toggling
--   Customizable hover to unblur feature
--   Decent speed and accuracy (continously improved)
+يعمل على الصور ومقاطع الفيديو التي تحتوي على محتوى غير مرغوب فيه أو غير مسموح به.
 
-## How it Works
+تعمل الإضافة على معظم المواقع (إن لم يكن جميعها) ومنصات التواصل الاجتماعي.
 
-HaramBlur currently used face detection and recognition features provided by [Human library](https://github.com/vladmandic/human) to detect faces and blur them based on the user settings and preferences. It also uses NSFW detection provided by [nsfwjs](https://github.com/infinitered/nsfwjs/) to further improve the accuracy. You can configure the type of detection you want and the amount of blur, hover to unblur, or turn the extension on and off via the interactive pop-up.
+إعدادات مستوى  قابلة للتخصيص لتناسب تجربتك في التصفح.
 
-# Installation Guide
+نافذة تفاعلية لتشغيل/إيقاف الإضافة بسهولة.
 
-## Option 1: Using the Plugin from the extensions store
+إمكانية تخصيص ميزة إلغاء تشويش عند تمرير المؤشر.
 
-1. Visit the [Haramblur extension on the Chrome Web Store](https://chrome.google.com/webstore/detail/haramblur/pbcoegikffnadpahojjhgdladmmddeji) or the [Firefox Add-ons Store](https://addons.mozilla.org/addon/haramblur/)
+سرعة ودقة جيدة (تتحسن باستمرار).
 
-2. Follow the installation instructions on the page.
+##  طريقة عمل الإضافة
 
-## Option 2: Compiling it On Your Own
+يستخدم 
+HaramBlur
+ حاليًا ميزات كشف الوجوه والتعرف عليها التي توفرها مكتبة [Human library](https://github.com/vladmandic/human) لتمييز الوجوه وتشويشها وفقًا لإعدادات وتفضيلات المستخدم. كما يعتمد أيضًا على تقنية كشف المحتوى غير اللائق nsfwjs لتحسين مستوى الدقة بشكل أكبر.
 
-If you want to compile the extension on your own, follow these steps:
+يمكنك ضبط نوع الكشف الذي تريده ودرجة تشويش، وتفعيل خيار إلغاء تشويش عند تمرير المؤشر، أو تشغيل/إيقاف الإضافة عبر النافذة التفاعلية 
 
-### Step 1: Clone the Repository
+##  دليل التثبيت
+الخيار الأول: استخدام الإضافة من متجر الإضافات
 
-Clone the HaramBlur repository to your local machine:
+قم بزيارة موقعنا
+ HaramBlur 
+واختر متصفحك
+الإداة متوفرة على  جوجل كروم / فايرفوكس
+[Haramblur extension on the Chrome Web Store](https://chrome.google.com/webstore/detail/haramblur/pbcoegikffnadpahojjhgdladmmddeji) or the [Firefox Add-ons Store](https://addons.mozilla.org/addon/haramblur/)
+اتبع خطوات التثبيت الموجودة في الصفحة.
 
-#### Chromium
+## - الخيار الثاني: 
+تشغيل الإضافة بنفسك
 
-```bash
+إذا كنت ترغب في تشغيل الإضافة بنفسك، اتبع الخطوات التالية:
+
+### الخطوة 1: استنساخ المستودع
+
+استنسخ مستودع HaramBlur إلى جهازك المحلي:
+
+### جوجل كروم :
+
 git clone https://github.com/alganzory/HaramBlur.git
-```
 
-### Firefox
 
-```bash
+### فايرفوكس
+
 git clone -b firefox-main --single-branch https://github.com/alganzory/HaramBlur.git
-```
 
-### Step 2: Install Dependencies
+### الخطوة 2: تثبيت الاعتمادات
 
-Navigate to the project directory and install the necessary dependencies:
+انتقل إلى مجلد المشروع وقم بتثبيت الاعتمادات اللازمة:
 
-```bash
 npm install
-```
 
-### Step 3: Code Your Magic
+### الخطوة 3: أضف تعديلاتك البرمجية
 
-Make the necessary modifications or enhancements to the code.
+قم بإجراء التعديلات أو التحسينات التي تراها مناسبة على الكود.
 
-### Step 4: Build the Extension
+### الخطوة 4: تشغيل الإضافة
 
--   Build the extension by running:
-    ```bash
+قم بتشغيل الإضافة بتنفيذ الأمر:
+
+ ```bash
     npm run build
     ```
 
-### Step 5: Generate a Release (Optional)
+الخطوة 5: إنشاء ملف إصدار (اختياري)
 
-Generate a release zip file to be uploaded to the browser/store:
-
+قم بإنشاء ملف مضغوط (zip) يمكن رفعه إلى المتصفح/الإضافة عبر الأمر:
 ```bash
 npm run release
 ```
 
-### Load the extension in Chromium browsers
+###- تحميل الإضافة على متصفحات كروم
 
--   Go to `chrome://extensions/`.
--   Enable "Developer mode".
--   Click "Load unpacked" and select the project folder.
+انتقل إلى:
 
-### Load the extension in Firefox
+`chrome://extensions/`
 
--   Go to `about:addons`
--   Press the gear icon.
--   Click "Install Add-on from file"
--   Select the zip file that you generated in Step 5.
 
-## Improvements
+فعّل وضع المطور (Developer mode).
 
-Here are some planned improvements that could be made to HaramBlur:
+اضغط على Load unpacked واختر مجلد المشروع.
 
--   Support for more browsers
--   Improve the speed of detection
--   Improve the accuracy of NSFW detection to reduce false positives and negatives
--   Make the extension more Shariah-compliant by adding additional privacy controls and customization options
+- تحميل الإضافة على فايرفوكس
 
-## Open Source
+انتقل إلى:
 
-HaramBlur is an open-source project and I really appreciate any contributions. Feel free to open an issue or submit a pull request if you have any suggestions or improvements you would like to see.
+`about:addons`
 
-## Like the project?
 
-If you like the project, please consider giving it a star ⭐️. If you wanna further support me, [buy me a coffee ☕️](https://www.buymeacoffee.com/alganzory), thank you! 😊
+اضغط على أيقونة ثلاث نقاط الموجودة
 
-Don't forget us from your Du'a! 🤲
+بتختار Install Add-on from file.
+
+حدد ملف الـ zip الذي أنشأته في الخطوة الخامسة.
+
+### تحسينات قادمة 🚀
+
+بعض التحسينات المخطط تنفيذها على HaramBlur:
+
+دعم المزيد من المتصفحات.
+
+تحسين سرعة  تشويش على صور / الفيديوهات الغير لائقة
+
+رفع الدقة لكشف المحتوى الغير مناسب (لتقليل النتائج الخاطئة).
+
+جعل الإضافة أكثر توافقًا مع الشريعة بإضافة خيارات حسب ماتريد  وتخصيصات إضافية.
+
+## مشروع مفتوح المصدر 💻
+
+HaramBlur 
+مشروع مفتوح المصدر، ونرحب بأي مساهمات
+يمكنك فتح issue أو إرسال pull request إذا كان لديك اقتراحات أو تحسينات.
+
+## هل أعجبك المشروع؟ 🌟
+
+إذا أعجبك المشروع، ضع له نجمة ⭐️ على GitHub.
+
+وإن أردت دعمي أكثر، يمكنك مساهمة من خلال هذا رابط ☕️.
+https://buymeacoffee.com/alganzory 
+
+سائلين الله عز وجل ان يبارك في هذا المشروع وجزاكم الله خيراً،
+
+لاتنسونا من صالح دعائكم 🤲
